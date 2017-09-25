@@ -1,12 +1,12 @@
 <?php
-//Inside myfirstprogram.php
-function sum($x, $y) {
-    $z = $x + $y;
-    return $z;
-}
-
-echo "5 + 10 = <b>" . sum(5, 10) . "</b><br>";
-echo "7 + 13 = <b>" . sum(7, 13) . "</b><br>";
-echo "2 + 4 = <b>" . sum(2, 4) . "</b>";
+echo "<table border=\"1\">";
+    for ($r =1; $r <= 100; $r++){
+        echo'<tr>';
+            for ($c = 1; $c <= 100; $c++){
+                echo '<td>' .$c*$r.'</td>';
+            }
+        echo '</tr>';
+    }
+  echo"</table>";
 
 ?>
